@@ -1,0 +1,9 @@
+# 플래시 박물관 — Art direction
+
+A midnight museum as a compact noir diorama, drawn entirely with original Godot vector primitives. No stock art. Deep ink `#0D1423`, slate `#172537`, warm stone `#283846`, restrained brass `#DDBB79`, relic teal `#72D9CC`, security vermilion `#ED786D`, paper `#F0E5C8`. Rooms differ in architectural motif: portrait arcade, fossil gallery, celestial vault; layered wall panels, floor borders, plinths and geometric exhibits imply depth without obscuring the chase lane.
+
+Player silhouette: short asymmetric coat, bright camera lens, cream face, teal scarf. Guards: taller black/navy rectangular overcoats with red visor and triangular flashlight cones; patrol and pursuit are differentiated by cone and pacing. Stunned guards wear a turquoise orbit and rotating pause symbol. Relics have distinct original shapes (medallion, tooth, star map) and a soft halo. Exit is an illuminated brass double door.
+
+Typography: bundled Noto Sans KR, SIL OFL 1.1; large Korean display title, compact readable HUD, short instructional lines. UI is framed like a museum accession card: top room title / relic counter / hearts, bottom cooldown rail and explicit controls; persistent large flash disc in the lower right, directional touch pads lower left. Responsive base canvas 960×540 with canvas-items scaling and fixed letterbox, prioritizing playable area on narrow screens via adaptive layout/zoom.
+
+Sound: synthesized original short shutter click (dry double impulse with low mechanical decay); relic chime and soft damage tone, generated locally rather than unlicensed audio. Animation: slow ornamental dust, 0.6-second localized translucent flash ring (never full-screen white or hard strobe), guard stun orbit, subtle relic bob, short UI easing. Reduced-flash option removes even the ring expansion and substitutes a steady outline/state icon. No rapid periodic flicker.
